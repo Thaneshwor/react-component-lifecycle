@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Lifecycle extends Component {
+class Mount extends Component {
     constructor(props) {
         super(props);
         this.state = { favoritecolor: "red" };
@@ -23,4 +23,4 @@ class Lifecycle extends Component {
     }
 }
 
-export default Lifecycle;
+export default Mount;

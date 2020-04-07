@@ -1,13 +1,15 @@
 import React from 'react';
-import Lifecycle from './components/Lifecycle';
+import Lifecycle from './components/lifecycle/Mount';
 import './App.css';
-import LifecycleUpdate from './components/LifecycleUpdate';
+import Update from './components/lifecycle/Update';
+import Container from './components/lifecycle/Container';
 
 function App() {
   return (
     <div className="App">
       {/* <Lifecycle favcol='blue' /> */}
-      <LifecycleUpdate favcol='pink' />
+      <Update favcol='pink' />
+      <Container />
     </div>
   );
 }
